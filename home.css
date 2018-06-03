@@ -1,0 +1,280 @@
+/* HOME */
+.navbar-row {
+  height: 70px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: lightgrey;
+  height: 150px;
+}
+
+.nav-link {
+  margin-top: 10px;
+  color: #022469;
+  font-size: 18px;
+  font-family: Nunito;
+  font-weight: 550;
+}
+
+.nav-link:hover {
+  font-family: Nunito;
+  color: #022469;
+  font-weight: 550;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* BOOKS-FLOW */
+
+.row-underline {
+  font-family: Nunito;
+  color: #022469;
+  font-weight: medo;
+  border-bottom: 3px #dddddd solid;
+  font-size: 14px;
+  height: 26px;
+}
+
+.find:hover a:after {
+  content: "";
+  height: 3px;
+  width: 55%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+  padding: 0;
+}
+
+.book:hover a:after {
+  content: "";
+  height: 3px;
+  width: 60%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: -10%;
+  left: 5%;
+  padding: 0;
+}
+
+.share:hover a:after {
+  padding: 0;
+  content: "";
+  height: 3px;
+  width: 70%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: -10%;
+  right: 0%;
+}
+
+.confirm:hover a:after {
+  content: "";
+  height: 3px;
+  width: 90%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: -10%;
+  right: 4%;
+  padding: 0;
+}
+
+.book-link {
+  color: #888;
+}
+
+.book-link:hover {
+  color: #4e77c9;
+}
+
+.book-active {
+  border-bottom: 3px #4e77c9 solid;
+}
+
+/* HEADER */
+
+.main-row {
+  height: 220px;
+  max-height: 300px;
+  background: linear-gradient(to bottom, rgb(77, 109, 173), rgb(186, 210, 241));
+}
+
+.header-img img {
+  height: 75px;
+  width: 100px;
+}
+
+.header-text,
+.header-text p {
+  max-width: 473px;
+  font-size: 14px !important;
+}
+
+.learn {
+  color: #4e77c9;
+}
+
+p {
+  color: white;
+}
+/* FORMS */
+.form-control::placeholder {
+  color: #888 !important;
+}
+
+input {
+  border-radius: 8px !important;
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .main-row {
+    height: 150px;
+  }
+  .underline {
+    font-size: 14px;
+  }
+
+  .find:hover a:after {
+    height: 3px;
+    width: 40%;
+  }
+
+  .book:hover a:after {
+    width: 50%;
+    bottom: -10%;
+    left: 0%;
+  }
+
+  .confirm:hover:hover a:after {
+    width: 70%;
+    bottom: -10%;
+    left: 0%;
+  }
+
+  .share:hover a:after {
+    width: 55%;
+    right: 0%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .find:hover a:after {
+    width: 40%;
+  }
+
+  .book:hover a:after {
+    width: 40%;
+    left: 10%;
+  }
+
+  .confirm:hover:hover a:after {
+    width: 65%;
+    right: 0%;
+  }
+
+  .share:hover a:after {
+    width: 50%;
+  }
+
+  .main-row {
+    height: 150px;
+  }
+  .underline {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-text,
+  .header-text p {
+    max-width: 800px;
+  }
+
+  .find:hover a:after {
+    width: 40%;
+  }
+
+  .book:hover a:after {
+    width: 45%;
+    left: 5%;
+  }
+
+  .confirm:hover:hover a:after {
+    width: 65%;
+    right: 5%;
+  }
+
+  .share:hover a:after {
+    width: 50%;
+  }
+
+  .main-row {
+    height: 150px;
+  }
+  .underline {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .find:hover a:after {
+    width: 40%;
+  }
+
+  .book:hover a:after {
+    width: 40%;
+    bottom: -10%;
+    left: 8%;
+  }
+
+  .confirm:hover:hover a:after {
+    width: 65%;
+    bottom: -10%;
+    right: 5%;
+  }
+
+  .share:hover a:after {
+    width: 50%;
+  }
+
+  .main-row {
+    height: 150px;
+  }
+  .underline {
+    font-size: 16px;
+  }
+  #nav-container {
+    max-width: 85% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .find:hover a:after {
+    width: 35%;
+  }
+
+  .book:hover a:after {
+    width: 40%;
+    bottom: -10%;
+    left: 10%;
+  }
+  .confirm:hover:hover a:after {
+    width: 55%;
+    bottom: -10%;
+    right: 18%;
+  }
+
+  .share:hover a:after {
+    width: 40%;
+  }
+
+  .main-row {
+    height: 150px;
+  }
+  .underline {
+    font-size: 16px;
+  }
+}

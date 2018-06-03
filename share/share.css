@@ -1,0 +1,68 @@
+b {
+  font-weight: 600;
+  opacity: 0.86;
+}
+
+.service-checkout {
+  background-color: rgba(78, 119, 201, 0.08);
+  border-radius: 10px;
+  border-bottom: none;
+}
+
+.service-total {
+  border-top: 1px white solid;
+}
+
+.personal-info {
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  border-top: none;
+}
+
+h4 {
+  font-family: Nunito;
+  font-weight: medium;
+  color: #022469 !important;
+}
+
+.book-appointment p {
+  font-family: Nunito;
+  font-size: 18px;
+  color: black;
+}
+
+.header {
+  font-size: 24px !important;
+  font-weight: medium;
+  font-family: Nunito;
+  color: black !important;
+}
+
+.btn-find {
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: rgba(78, 119, 201, 1);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+}
+
+.btn-cancel {
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: white;
+  color: rgba(78, 119, 201, 1);
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.header-share {
+  font-family: Nunito;
+  font-weight: medium;
+  font-size: 20px;
+}

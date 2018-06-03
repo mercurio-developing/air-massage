@@ -1,0 +1,232 @@
+input {
+  border-radius: 8px !important;
+}
+
+h3 {
+  color: rgb(2, 36, 104);
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+.col-service {
+  border-bottom: 1px solid lightgray;
+  padding: 30px 40px 25px 40px;
+}
+
+.row-service-active {
+  border: 1.5px rgba(78, 119, 201, 0.8) solid !important;
+}
+
+.row-service:hover {
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1.5px rgba(78, 119, 201, 0.8) solid;
+  border-radius: 10px;
+}
+
+.row-service {
+  margin-top: 20px;
+  border: 1.5px lightgray solid;
+  border-radius: 10px;
+}
+
+.row-service p {
+  color: darkgray;
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+.h5 {
+  color: #022469 !important;
+}
+
+.col-appointment {
+  padding: 32px 40px 25px 40px;
+}
+
+.service-checkout p {
+  color: black !important;
+}
+
+.personal-info p {
+  color: black !important;
+}
+
+.service-checkout {
+  background-color: rgba(78, 119, 201, 0.08);
+  border: 1.5px lightgrey solid;
+  border-radius: 10px;
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.service-total {
+  border-top: 1px white solid;
+}
+
+.personal-info {
+  border: 1.5px lightgrey solid;
+  border-radius: 10px;
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.btn-find {
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: #4e77c9;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 25px 10px 25px;
+}
+
+.form-sel select {
+  background: white;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+}
+
+.form-sel {
+  border-radius: 8px !important;
+
+  padding-left: 16px;
+  font-family: Nunito;
+  font-weight: 100;
+  color: #888 !important;
+  overflow: hidden;
+  -webkit-appearance: none; /* for webkit browsers */
+  -moz-appearance: none; /* for firefox */
+  background: url("../assets/arrow.png") no-repeat 97% 50%;
+}
+
+::placeholder {
+  opacity: 0.8;
+  font-family: Nunito;
+  font-weight: 100;
+}
+
+/* Table*/
+
+.table {
+  border: 1px lightgray solid;
+  border-radius: 20px !important;
+  padding: 10px 20px 10px 0px;
+  font-size: 14px;
+}
+
+.table-time {
+  border: 1px lightgray solid;
+  border-radius: 20px !important;
+}
+
+.time {
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px lightgray solid;
+  border-radius: 10px !important;
+  padding: 5px 5px 5px 8px;
+  margin-top: 10px;
+  color: #666 !important;
+}
+
+.time:hover {
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px #4e77c9 solid;
+  border-radius: 10px !important;
+  padding: 5px 5px 5px 8px;
+  margin-top: 10px;
+  color: #4e77c9 !important;
+}
+
+.time-active {
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px #4e77c9 solid;
+  border-radius: 10px !important;
+  padding: 5px 5px 5px 8px;
+  margin-top: 10px;
+  background-color: #4e77c9;
+  color: white !important;
+}
+
+.date {
+  opacity: 1;
+  color: #666 !important;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 7.5px;
+  border: 1px darkgrey solid !important;
+}
+
+.date-active {
+  background-color: #4e77c9;
+  opacity: 1;
+  color: white !important;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  border: 1.5px #4e77c9 solid !important;
+}
+
+.month {
+  color: #666 !important;
+  margin-left: 7px;
+}
+.date:hover {
+  border-color: #4e77c9 !important;
+  color: #4e77c9 !important;
+}
+
+.btn-find:disabled {
+  background-color: #c0c0c0;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-service {
+    border-right: none;
+
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+}

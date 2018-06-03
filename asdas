@@ -1,0 +1,53 @@
+.underline:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 4.2 auto; /* This will center the border. */
+  width: 100%; /* Change this to whatever width you want. */
+  border-bottom: 3px solid #dddddd; /* This creates the border. Replace black with whatever color you want. */
+  position: absolute;
+  z-index: -1;
+}
+
+.confirm:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 4.2 auto; /* This will center the border. */
+  width: 100%; /* Change this to whatever width you want. */
+  border-bottom: 3px solid #dddddd; /* This creates the border. Replace black with whatever color you want. */
+  position: absolute;
+  z-index: -1;
+}
+
+.share:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 4.2 auto; /* This will center the border. */
+  width: 100%; /* Change this to whatever width you want. */
+  border-bottom: 3px solid #dddddd; /* This creates the border. Replace black with whatever color you want. */
+  position: absolute;
+  z-index: -1;
+}
+
+.underline:hover a:after {
+  content: "";
+  height: 3px;
+  width: 40%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: 35%;
+  left: 20%;
+  transform: translate(-50%);
+  padding: 0;
+}
+
+.share:hover a:after {
+  padding: 0;
+  content: "";
+  height: 3px;
+  width: 80%;
+  background-color: #4e77c9;
+  position: absolute;
+  bottom: 35%;
+  right: -40%;
+  transform: translate(-50%);
+}

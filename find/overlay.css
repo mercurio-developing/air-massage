@@ -1,0 +1,267 @@
+/* OVERLAY */
+
+.card-img-top {
+  background: lightgray;
+  height: 180px;
+}
+
+.background {
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(77, 109, 173), rgb(186, 210, 241));
+  z-index: 2;
+}
+
+.card {
+  border: 1.5px lightgray solid;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: #888 !important;
+}
+
+.h5 {
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+
+overlay-link {
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+
+.subtitle {
+  font-size: 17px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: white !important;
+}
+
+.description {
+  font-size: 16px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.btn-over-find {
+  font-size: 18px;
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: rgba(78, 119, 201, 1);
+  color: white;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.container {
+  z-index: 0.5;
+}
+
+.over-h3 {
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(50, 50, 50, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  background-color: white;
+  position: relative;
+  top: -3%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay-gallery {
+  background-color: white;
+  z-index: -1;
+  padding: 50px;
+}
+
+.h5 a {
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+/* MEDIA QUERY */
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .background {
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      rgb(77, 109, 173),
+      rgb(186, 210, 241)
+    );
+    z-index: 2;
+  }
+  .card-img-top {
+    background: lightgray;
+    height: 120px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .background {
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      rgb(77, 109, 173),
+      rgb(186, 210, 241)
+    );
+    z-index: 2;
+  }
+  .card-img-top {
+    background: lightgray;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-service {
+    border-right: none;
+
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .background {
+    height: 150px;
+    background: linear-gradient(
+      to bottom,
+      rgb(77, 109, 173),
+      rgb(186, 210, 241)
+    );
+    z-index: 2;
+  }
+  .card-img-top {
+    background: lightgray;
+    height: 180px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .background {
+    height: 150px;
+    background: linear-gradient(
+      to bottom,
+      rgb(77, 109, 173),
+      rgb(186, 210, 241)
+    );
+    z-index: 2;
+  }
+  .card-img-top {
+    background: lightgray;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .background {
+    height: 150px;
+    background: linear-gradient(
+      to bottom,
+      rgb(77, 109, 173),
+      rgb(186, 210, 241)
+    );
+    z-index: 2;
+  }
+
+  .card-img-top {
+    background: lightgray;
+    height: 180px;
+  }
+}

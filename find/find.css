@@ -1,0 +1,251 @@
+input {
+  border-radius: 8px !important;
+}
+
+h3 {
+  color: #022469;
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+.col-service {
+  border-bottom: 1px solid lightgray;
+  padding: 28px 40px 25px 40px;
+}
+
+.row-service-active {
+  border: 1.5px rgba(78, 119, 201, 1) solid !important;
+}
+
+.row-service:hover {
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1.5px rgba(78, 119, 201, 1) solid;
+  border-radius: 10px;
+}
+
+.row-service {
+  margin-top: 20px;
+  border: 1.5px lightgray solid;
+  border-radius: 10px;
+}
+
+.row-service p {
+  color: darkgray;
+  font-family: Nunito;
+  font-weight: medium;
+}
+.h5 {
+  color: #022469 !important;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: medium;
+}
+.col-appointment {
+  padding: 32px 40px 25px 40px;
+}
+
+.btn-find {
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: rgba(78, 119, 201, 1);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 25px 10px 25px;
+}
+
+.form-sel select {
+  background: white;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+}
+
+.form-sel {
+  border-radius: 8px !important;
+
+  font-family: Nunito;
+  font-weight: 100;
+  color: #888 !important;
+  overflow: hidden;
+  -webkit-appearance: none; /* for webkit browsers */
+  -moz-appearance: none; /* for firefox */
+  padding-left: 10px;
+  background: url("../assets/arrow.png") no-repeat 97% 50%;
+}
+
+::placeholder {
+  opacity: 0.8;
+  font-family: Nunito;
+  font-weight: 100;
+}
+
+/* OVERLAY */
+
+.card {
+  border: 1.5px darkgrey solid;
+}
+
+.card-text {
+  font-size: 11px;
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+overlay-link {
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+
+.description {
+  font-size: 12px;
+  font-family: Nunito;
+  font-weight: medium;
+  color: black !important;
+}
+
+.btn-over-find {
+  font-size: 12px;
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: rgba(78, 119, 201, 1);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+}
+
+.container {
+  z-index: 0.5;
+}
+
+.over-h3 {
+  color: rgba(78, 119, 201, 1);
+  font-weight: bold;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(50, 50, 50, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: none;
+}
+
+.overlay-content {
+  background-color: lightgray;
+  position: relative;
+  top: -3%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-service {
+    border-right: none;
+
+    border-bottom: 1px solid lightgray;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}

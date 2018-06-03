@@ -1,0 +1,228 @@
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin: 0 0.4em 0.4em 0;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+
+  -webkit-appearance: none;
+  -webkit-transition: box-shadow 200ms;
+}
+
+/* border radius for checkbox */
+input[type="checkbox"] {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* hover state */
+input[type="checkbox"]:not(:disabled):hover {
+  border-color: #007dc6;
+}
+
+/* active state */
+input[type="checkbox"]:active:not(:disabled) {
+  border-color: #007dc6;
+}
+
+/* focus state */
+input[type="checkbox"]:focus {
+  outline: none;
+}
+
+/* input checked border color */
+input[type="checkbox"]:checked {
+  border-color: #007dc6;
+  background-color: #007dc6;
+}
+
+/* checkbox checked */
+input[type="checkbox"]:checked:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-left: 5px;
+  margin-bottom: px;
+}
+
+input {
+  border-radius: 8px !important;
+}
+/* disabled input */
+input:disabled {
+  opacity: 0.6;
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+/* style label for disabled input */
+input:disabled + label {
+  opacity: 0.6;
+  cursor: default;
+  -webkit-user-select: none;
+}
+
+h3 {
+  color: rgb(2, 36, 104);
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+label {
+  color: darkgray;
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+.col-service {
+  border-right: 1px solid lightgray;
+  padding: 28px 40px 25px 40px;
+}
+
+.row-service-active {
+  border: 1.5px rgba(78, 119, 201, 0.8) solid !important;
+}
+
+.row-service:hover {
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1.5px rgba(78, 119, 201, 0.8) solid;
+  border-radius: 10px;
+}
+
+.row-service {
+  margin-top: 20px;
+  border: 1.5px lightgray solid;
+  border-radius: 10px;
+}
+
+.row-service p {
+  color: darkgray;
+  font-family: Nunito;
+  font-weight: medium;
+}
+
+.h5 {
+  color: #022469 !important;
+}
+
+.col-appointment {
+  padding: 28px 40px 25px 40px;
+}
+
+.book-appointment p {
+  color: black !important;
+}
+
+.service-checkout {
+  background-color: rgba(78, 119, 201, 0.08);
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.service-total {
+  border-top: 1px white solid;
+}
+
+.personal-info {
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.btn-find {
+  font-family: Nunito;
+  font-weight: medium;
+  background-color: rgba(78, 119, 201, 1);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 25px 10px 25px;
+}
+
+.form-sel {
+  border-radius: 8px !important;
+
+  padding-left: 16px;
+  font-family: Nunito;
+  font-weight: 100;
+  color: #888 !important;
+  overflow: hidden;
+  -webkit-appearance: none; /* for webkit browsers */
+  -moz-appearance: none; /* for firefox */
+  background: url("../assets/arrow.png") no-repeat 97% 50%;
+}
+
+::placeholder {
+  opacity: 0.8;
+  font-family: Nunito;
+  font-weight: 100;
+}
+
+textarea {
+  border-radius: 10px;
+  resize: none;
+}
+textarea::placeholder {
+  color: #9b9b9b;
+}
+
+.form-check-label {
+  font-size: 14px;
+}
+
+.form-check-input {
+  margin-top: 6px;
+}
+
+.payment-header {
+  margin-left: 12px;
+}
+/* MEDIA QUERY */
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-service {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-service {
+    border-right: none;
+
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-service {
+    border-right: 1px solid lightgray;
+    border-bottom: none;
+  }
+}
